@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import persistence.ConexionBD;
+import util.ConexionBD;
 /**
  *
  * @author Natalie Ulate Rojas

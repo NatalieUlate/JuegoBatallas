@@ -10,7 +10,7 @@ import dao.PersonajeDAO;
 import dao.RazaDAO;
 import java.util.HashMap;
 import model.*;
-import persistence.ConexionBD;
+import util.ConexionBD;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
