@@ -21,7 +21,7 @@ public class ConexionBD {
     }
 
     public static Connection getConnection(boolean autoCommit) throws SQLException {
-        Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
+        Connection  connection = DriverManager.getConnection(URL, USER, PASSWORD);
         connection.setAutoCommit(autoCommit);
         return connection;
     }

@@ -14,7 +14,7 @@ public class VideojuegoBatallas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        MotorJuego juego = new MotorJuego();
+       MotorJuego juego = new MotorJuego();
         juego.iniciar();
     }
     
